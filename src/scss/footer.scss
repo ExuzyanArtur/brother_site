@@ -1,0 +1,22 @@
+//====================================================================================================
+
+//===================================================================================================
+.footer {
+    background-color: #204663;
+    color: #fff;
+    padding: 10px;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__address {
+    display: flex;
+    flex-direction: column;
+
+    a:not(:last-child) {
+        margin: 7px 0 15px 0;
+    }
+ 
+}
